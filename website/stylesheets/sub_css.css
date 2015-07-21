@@ -1,0 +1,468 @@
+body { background-color:#372819; }
+
+#skip { clear:both; width:900px; margin-right:auto; margin-left:auto; padding-right:5px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:0.7em;  }
+#skip a, #skip a:hover, #skip a:visited { float:right; height:1px; overflow:hidden;  }
+#skip a:active, #skip a:focus { color:#FBF6E7; height:auto; }
+#skip img { border:0; margin:0; padding:0; width:1px; height:1px; }
+
+#wrapper { width: 900px; margin-right: auto; margin-left: auto; }
+
+
+
+/* Project Links (Top) */
+#p_links { clear:both; float:left; margin:0px; padding:0px; width:900px; margin:0 auto; }
+
+#p_links_inner { float:right; margin:0px; padding:5px 5px; background-color:#372819; color:#FBF6E7; 
+	             font-family:Verdana, Arial, Helvetica, sans-serif; font-size:0.7em; }
+				 
+#p_links a:link { color:#FBF6E7; text-decoration:none; }	
+#p_links a:visited { color:#FBF6E7; text-decoration:none; }
+#p_links a:hover { color:#FBF6E7; text-decoration:underline; }
+#p_links a:active { color:#FBF6E7; text-decoration:none; }
+#p_links img { border:0; }
+
+
+/* TDCJ Banner */
+#banner { clear:both; float:left; position:relative; height:75px; width:900px;
+	      background-image: url(../images/banner-3-inside_saved_for_web.jpg);
+	      background-repeat: no-repeat; margin:0px; padding:0; }
+
+
+
+/* RSS Icon/Link */
+#rss { position:absolute; left:880px; top:6px; width:20px; display:inline; }
+#rss img { border:0; margin:0; padding:0; }
+
+
+/* Rollover Navigation */
+#roll_outer { clear:both; float:left; width:900px; margin:0px auto 0px auto; padding:0px 0px 0px 0px; 
+               } 
+#nav { clear:both; float:left; width:900px; background-image:url(../images/nav_back_3.jpg); height:30px;
+	   background-color:#77140E; padding:0px 0px; }	
+#nav_list { text-align:center; margin:0; padding:0; font-size:0.8em; font-family:"Tribuchet MS", Arial, sans-serif; 
+            line-height:30px;  }
+#nav_list li { display:inline; padding:0; list-style-type:none; }
+#nav_list a { margin:0;
+	padding:5px 20px 6px 20px; color:#FFF; text-decoration:none; text-transform:capitalize; }
+#nav_list a:link { background-color:inherit; color:#FBF6E7; font-weight: bold; }
+#nav_list a:visited { background-color:inherit; color:#FBF6E7; font-weight: bold; }
+#nav_list a:hover { background-color:#FBF6E7; color:#372819; border-width:1px 0px 1px 0px;
+	                border-style:solid; border-color:#FBF6E7; font-weight: bold; text-decoration:none; }
+#nav_list a:active { background-color:inherit; color:#FBF6E7; font-weight: bold; }
+
+
+/* Main Page Body */
+#body {
+	clear:both;
+	float:left;
+	background-color:#FBF6E7;
+	color:#581B18;
+	width:860px;
+	margin:0;
+	padding:0px 20px 20px 20px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.75em;
+	line-height:1.5em;
+}
+#body a:link { color:#77140E; text-decoration:underline; }	
+#body a:visited { color:#77140E; text-decoration:underline; }
+#body a:hover { color:#BD0000; text-decoration:none; }
+#body a:active { color:#77140E; text-decoration:underline; }		
+#body h1 { font-size:2.4em; font-family: "Times New Roman", Times, serif; font-style: italic;
+	       border-bottom-width: 1px; border-bottom-color: #372819; line-height: 1.3em; }
+#body h2 { font-size:1.8em; font-family: "Times New Roman", Times, serif; font-style: italic; line-height: 1.3em; }
+#body h3 { font-size:1.4em; font-family: "Times New Roman", Times, serif; font-style: italic; line-height: 1.3em; }
+
+#col_0 { float:left; width:390px; padding-top:15px; padding-right:40px; }
+#col_0 p { margin:0; padding-top:7px; }
+#col_1 { float:left; width:430px; padding-top:15px; }
+#col_1 p { margin:0; padding-top:7px; }
+#col_1_col_0 { clear:both; float:left; width:235px; }
+#col_1_col_1 { float:left; width:195px; }
+
+
+/* Footer */
+#bottom_nav { clear:both; float:left; background-color:#4C0C0A; color:#FBF6E7; width:900px; margin:0;
+	          padding:30px 0px 5px 0px; background-image:url(../images/b_nav_bg.png); background-repeat:repeat-x;
+	          text-align:center; font-family:"Trebuchet MS", Verdana, sans-serif; font-size:0.7em; line-height: 1.6em; }
+#bottom_nav a:link { color:#FBF6E7; text-decoration:none; }	
+#bottom_nav a:visited { color:#FBF6E7; text-decoration:none; }
+#bottom_nav a:hover { color:#FBF6E7; text-decoration:underline; }
+#bottom_nav a:active { color:#FBF6E7; text-decoration:none; }		  
+#pics_director {
+	float: right;
+	width: 288px;
+	text-align: center;
+	padding-left: 22px;
+	font-weight: bold;
+	margin-right: 11px;
+	padding-bottom: 11px;
+}
+#pics_executive {
+	float: none;
+	width: 288px;
+	text-align: center;
+	padding-left: 22px;
+	font-weight: bold;
+	margin-right: 11px;
+	padding-bottom: 11px;
+}
+
+#pics_dep_director {
+	float: right;
+	width: 288px;
+	text-align: center;
+	padding-left: 22px;
+	font-weight: bold;
+	margin-right: 11px;
+	padding-bottom: 11px;
+}
+#director_pics {
+	float: right;
+	width: 200px;
+	text-align: center;
+	padding-left: 22px;
+	font-weight: bold;
+}
+#director_pics_288 {
+	float: right;
+	width: 288px;
+	text-align: center;
+	padding-left: 22px;
+	font-weight: bold;
+}
+
+#pics_volwin {
+	width:445px;
+	float: left;
+	text-align: left;
+	padding: 0px 12px 12px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+
+/* Return Div */
+.return_to_div {
+	clear:both;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-style: normal;
+	line-height: normal;
+	text-decoration: none;
+	padding-top: 22px;
+	padding-bottom: 11px;
+	font-weight: normal;
+	color: #372819;
+}
+.end_lesson_div {
+	clear:both;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-style: normal;
+	line-height: normal;
+	text-decoration: none;
+	padding-top: 22px;
+	padding-bottom: 11px;
+	font-weight: normal;
+	color: #372819;
+}
+
+
+
+/* For Print Only */
+#h_p_or_nocss { display:none; }
+
+/* Print Rules */
+@media print {
+  #pics_board { float: left; width: 200px; }
+  #h_p_or_nocss { display:block; font-family:"Times New Roman", Times, serif; font-weight:bold; font-size:2em; 
+                  text-transform:uppercase; text-align:center; color:#000; background-color:#FFF; } 
+}
+
+
+/* General Styles */
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: inherit;
+	line-height: inherit;
+	color: #372819;
+}
+.text_red {
+	color:#77140E;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:inherit;
+	line-height:inherit;
+}
+.text_true_red {
+	color:#FF0000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:inherit;
+	line-height:inherit;
+}
+.text_true_red_bold_centered {
+	color:#FF0000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:inherit;
+	line-height:inherit;
+	font-weight: bold;
+	text-align: center;
+}
+
+.text_true_red_italic {
+	color:#FF0000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:inherit;
+	line-height:inherit;
+	font-style: italic;
+}
+
+
+.text_bold {
+	color:#372819;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: bold;
+}
+
+.text_centered {
+	text-align: center;
+}
+
+.text_underline {
+	text-decoration:underline;
+}
+
+.text_underline_bold {
+	text-decoration:underline;
+	font-weight: bold;
+}
+
+
+.text_bold_italic {
+	color:#372819;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.text_italic {
+	color:#372819;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.text_italic_red {
+	color:#77140E;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.text_italic_smaller {
+	color:#372819;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: inherit;
+	font-weight: normal;
+	font-style: italic;
+}
+.text_smaller {
+	color:#372819;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: inherit;
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.spaced_list li {
+	margin-bottom:1em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+	font-size:inherit;
+}
+.mission_statement { font-family: "Times New Roman", Times, serif; font-style: italic; font-weight: normal; color: #372819;
+	                 font-size: 1.3em; line-height: 1.3em; }
+.photo_border_black { border: 1px solid #000000; }
+.board_photos { margin-top: 16px; margin-right: 15px; margin-bottom: 0px; margin-left: 0px;
+	            border: 1px solid #372819; }
+.photo_borders_left { float:left; border:1px solid #000000; margin:0px 12px 12px 0px }
+.photo_borders_right { float:right; border:1px solid #000000; margin:0px 0px 12px 12px }
+
+
+/* OS Table format */
+table.os { background-color:inherit; border: 1px solid #504444; }
+table.os td {
+	color:#000000;
+	background-color:inherit;
+	padding:5px 2px;
+	text-align:center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	border: 1px solid #504444;
+}
+
+/*
+#body ul {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+
+#body ul ul { font-size:1em; }
+
+#HR_Navigation ul { font-size: 1em; }
+*/
+
+table.last td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding:5px 2px;
+	color: #000000;
+	font-size: 0.9em;
+	border-width: 1px;
+	border-color: gray;
+	border-style: solid;
+}
+table.os th {
+	color: #FFFFFF;
+	background-color:#372819;
+	border-width:1px;
+	border-color:gray;
+	border-style:solid;
+	padding:5px 2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+}
+table.os th p { color:#FFF; }
+table.last th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align:left;
+	background-color:#504444;
+	padding:5px 2px;
+	font-size: 0.9em;
+	border: 1px solid #504444;
+}
+
+/* Victim Resource Directory Styles */
+#resdir_div h1 { text-transform:none; }
+#resdir_div h2 { text-transform:none; color:#000000; margin:1.2em 0em 0.2em 0em; }
+#resdir_div h3 { text-transform:none; color:#000000; margin:0.2em 0em 0.0em 0em; }
+#vic_res_dir_clist { clear:both; float:left; width:100%; margin:0em 0em 2em 0em; }
+.vic_res_dir_clist_col_1 { clear:both; float:left; }
+.vic_res_dir_clist_col { float:left; margin:0px 0px 0px 60px; }
+
+/* Death Row Table Styles */
+.tabledata_bold_align_right_deathrow {
+	font-weight: bold;
+	text-align: right;
+	padding-top: 9px;
+	padding-right: 11px;
+	width: 45%;
+	vertical-align: top;
+}
+.tabledata_align_left_deathrow {
+	text-align: left;
+	padding-top: 9px;
+	width: 35%;
+	vertical-align: top;
+}
+.tabledata_deathrow_table {
+	width: 93%;
+}
+
+/* Unit Directory Table Styles */
+.tabledata_bold_align_right_unit {
+	font-weight: bold;
+	text-align: right;
+	padding-top: 9px;
+	padding-right: 11px;
+	width: 40%;
+	vertical-align: top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+}
+.tabledata_align_left_unit {
+	text-align: left;
+	padding-top: 9px;
+	vertical-align: top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+/* Volunteer Assessment Form */
+.vol_as_fs { border:0; margin-left:0; padding-left:0; }
+.vol_as_fs legend { font-weight:bold; margin-left:0; padding-left:0; }
+.vol_as_lb { font-weight:bold; }
+.list_no_button {
+	list-style-type: none;
+}
+.list_alpha_upper {
+	list-style-type: upper-alpha;
+}
+.list_alpha_lower {
+	list-style-type: lower-alpha;
+}
+.list_roman_upper {
+	list-style-type: upper-roman;
+}
+.list_roman_upper_bold {
+	list-style-type: upper-roman;
+	font-weight: bold;
+}
+
+.list_roman_lower {
+	list-style-type: lower-roman;
+}
+.list_number {
+	list-style-type: decimal;
+}
+
+
+
+
+
+#video_body {
+	float: left;
+	width: 900px;
+	background-color: #F00;
+	margin-right: auto;
+	margin-left: auto;
+}
+.fifty_fifty_left_align_bold {
+	text-align: left;
+	float: left;
+	width: 50%;
+	font-weight: bold;
+}
+.fifty_fifty_left {
+	float: left;
+	width: 50%;
+	font-weight: normal;
+}
+
+.fifty_fifty_right_align_bold {
+	text-align: left;
+	float: left;
+	width: 50%;
+	font-weight: bold;
+}
+.fifty_fifty_right {
+	float: left;
+	width: 50%;
+	font-weight: normal;
+}
+
+.fifty_fifty_container {
+	float: left;
+	width: 100%;
+}
