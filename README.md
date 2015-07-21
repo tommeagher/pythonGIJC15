@@ -1,4 +1,4 @@
-# Python at IRE15
+# Python at GIJC15
 An introduction to using Python in the newsroom at [GIJC 2015](http://gijc2015.org/) in Lillehammer, Norway.
 
 Follow along [with the slides](http://www.tommeagher.com/pythonIRE15/#/).
