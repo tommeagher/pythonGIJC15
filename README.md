@@ -18,7 +18,6 @@ Hour One:
 
 Hour Two:
 * Let's code [this](https://github.com/tommeagher/pythonIRE15/blob/master/scripts/scrape1.py) together
-* There's so much weirdness in coding and quirks to any programming language, we can't possibly do it all in two days. So here are [some resources](https://github.com/ireapps/pycar/tree/master/takehome).
 
 ##Day Two
 Hour Three:
@@ -30,3 +29,4 @@ Hour Four:
 
 Hour Five: 
 * Continuing the scraper. TK
+* There's so much weirdness in coding and quirks to any programming language, we can't possibly do it all in two days. So here are [some resources](https://github.com/ireapps/pycar/tree/master/takehome).
