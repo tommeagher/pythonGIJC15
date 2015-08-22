@@ -1,5 +1,6 @@
 # Python at GIJC15
-##An introduction to using Python in the newsroom at [GIJC 2015](http://gijc2015.org/) in Lillehammer, Norway.
+##An introduction to Python in the newsroom
+##at [GIJC 2015](http://gijc2015.org/) in Lillehammer, Norway.
 
 Before class, be sure that [you have installed Python 2.7](PRE-CLASS.md) and all the necessary tools. 
 
