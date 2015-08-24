@@ -14,22 +14,22 @@ Then we'll do the list of all death row inmates, adding a column to our scraper:
 A rough outline of the five, 1-hour sessions:
 
 ##Day One
-Hour One:
+###Hour One:
 * Why code at all and why Python?
 * Strings, ints, variables, and lists. [Everything](https://github.com/tommeagher/pythonIRE15/blob/master/scripts/day_one/the_basics.py) you need to know about programming you probably learned in Excel
 * How the hell do you scrape a website? A quick exercise in breaking down a problem into its components and writing functions.
 
-Hour Two:
+###Hour Two:
 * Let's code [this](https://github.com/tommeagher/pythonIRE15/blob/master/scripts/day_one/scrape1.py) together
 
 ##Day Two
-Hour Three:
+###Hour Three:
 * We'll recap what we covered the first day and pick up where we left off.
 * We already scraped one page, now we'll use the same script to try it on the list of [other death row inmates](https://github.com/tommeagher/pythonIRE15/blob/master/scripts/day_two/scrape2.py) (add one column and a loop)!
 
-Hour Four:
-* Next, we'll tackle another scraper, this time one with incrementing parameters in the URL. More TK
+###Hour Four:
+* Let's tackle the Texas extra credit, making additional requests for each profile page. 
 
-Hour Five: 
-* Continuing the scraper. TK
+###Hour Five: 
+* Next, we'll tackle another scraper, this time one with incrementing parameters in the URL. More TK
 * There's so much weirdness in coding and quirks to any programming language, we can't possibly do it all in two days. So here are [some resources](https://github.com/ireapps/pycar/tree/master/takehome).
