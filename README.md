@@ -28,7 +28,7 @@ A rough outline of the five, 1-hour sessions:
 * We already scraped one page, now we'll use the same script to try it on the list of [other death row inmates](https://github.com/tommeagher/pythonIRE15/blob/master/scripts/day_two/scrape2.py) (add one column and a loop)!
 
 ###Hour Four:
-* Let's tackle the Texas extra credit, making additional requests for each profile page. 
+* Let's tackle the Texas extra credit, making additional requests for each profile page. Or should this be part one of a new scraper? Probably.
 
 ###Hour Five: 
 * Next, we'll tackle another scraper, this time one with incrementing parameters in the URL. More TK
