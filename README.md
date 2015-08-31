@@ -31,5 +31,5 @@ A rough outline of the five, 1-hour sessions:
 * Let's tackle the Texas extra credit, making additional requests for each profile page. Or should this be part one of a new scraper? Probably.
 
 ###Hour Five: 
-* Next, we'll tackle another scraper, this time one with incrementing parameters in the URL. More TK
+* Next, we'll tackle another scraper, this time one with incrementing parameters in the URL. Or maybe talk about APIs and using JSON in Python scripts.
 * There's so much weirdness in coding and quirks to any programming language, we can't possibly do it all in two days. So here are [some resources](https://github.com/ireapps/pycar/tree/master/takehome).
