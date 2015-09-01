@@ -17,7 +17,7 @@ A rough outline of the five, 1-hour sessions:
 ###Hour One:
 * Why code at all and why Python?
 * Strings, ints, variables, and lists. [Everything](https://github.com/tommeagher/pythonIRE15/blob/master/scripts/day_one/the_basics.py) you need to know about programming you probably learned in Excel
-* How the hell do you scrape a website? A quick exercise in breaking down a problem into its components and writing functions.
+* How the hell do you scrape a website? A quick exercise in breaking down a problem into its components and writing functions. http://www.tommeagher.com/pythonIRE15/#/15
 
 ###Hour Two:
 * Let's code [this](https://github.com/tommeagher/pythonIRE15/blob/master/scripts/day_one/scrape1.py) together
