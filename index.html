@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Intro to Python in the Newsroom - IRE Philadelphia</title>
+		<title>Intro to Python in the Newsroom - GIJC in Lillehammer</title>
 
 		<meta name="description" content="Learning to code to improve our reporting">
 		<meta name="author" content="Tom Meagher">
@@ -42,7 +42,8 @@
 			<div class="slides">
 				<section>
 					<h1>Intro to Python<br /> in the Newsroom</h1>
-					<h3>IRE 2015 - Philadelphia</h3>
+					<h3>Day One - GIJC 2015, Lillehammer</h3>
+					<h3></h3>
 					<p>
 						<small>By <a href="http://www.tommeagher.com/">Tom Meagher</a> / <a href="http://twitter.com/ultracasual">@ultracasual</a></small>
 					</p>
@@ -59,7 +60,7 @@
 				<!-- Example of nested vertical slides -->
 				<section>
 					<section>
-						<h2>Today, we won't learn everything</h2>
+						<h2>We won't learn everything</h2>
 
 						<p><strike><a href="http://cli.learncodethehardway.org/book/">The Command Line</a></strike></p>
 						<p><strike><a href="http://www.tommeagher.com/blog/2013/02/learning-to-commit-to-version-control.html">Git</a> or Github</strike></p>
@@ -106,13 +107,15 @@
 
 				<section>
 					<h2>Prep your workspace</h2>
-					To <a href="https://github.com/ireapps/pycar/tree/master/takehome#get-your-machine-ready">set up your machine</a> at home, you'll need to have <a href="https://pypi.python.org/pypi/pip">pip</a>, <a href="https://virtualenv.pypa.io/en/latest/">virtualenv</a> and <a href="https://virtualenvwrapper.readthedocs.org/en/latest/">virtualenvwrapper</a> installed.
+					To <a href="https://github.com/ireapps/pycar/tree/master/takehome#get-your-machine-ready">set up your machine</a>, you'll need to have Python 2.7, <a href="https://pypi.python.org/pypi/pip">pip</a>, <a href="https://virtualenv.pypa.io/en/latest/">virtualenv</a> and <a href="https://virtualenvwrapper.readthedocs.org/en/latest/">virtualenvwrapper</a> installed.
 
 						<pre><code data-trim contenteditable>
 #create and activate a sandbox to work in
 mkvirtualenv ire15    
+
 #clone the code repo from Github
-git clone git@github.com:tommeagher/pythonIRE15.git
+git clone git@github.com:tommeagher/pythonGIJC15.git
+
 #install the dependencies: requests, beautifulsoup4, unicodecsv
 pip install -r requirements.txt   
 
@@ -125,13 +128,13 @@ ipython
 					<h2>Strings</h2>
 					<p>Strings are ordered sequences of characters wrapped in quotes.<br /><br /></p>
 					<pre><code>
-var1 = "This class is at IRE in Philadelphia."
+var1 = "This class is at GIJC in Lillehammer."
 var2 = "&You!_123 Four"
 
 </code></pre>
 
 					<p><br /></p>
-					<small>Follow along at home <a href="https://github.com/tommeagher/pythonIRE15/blob/master/scripts/the_basics.py">here</a>.<br /><small>If you want to cheat, the answers are <a href="https://github.com/tommeagher/pythonIRE15/blob/master/scripts/completed/the_basics_complete.py">here</a>.</small></small>
+					<small>Follow along at home <a href="https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/the_basics.py">here</a>.<br /><small>If you want to cheat, the answers are <a href="https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/completed/the_basics_complete.py">here</a>.</small></small>
 				</section>
 
 				<section>
@@ -191,7 +194,7 @@ else:
 				</section>
 
 				<section>
-				<h2> Part Deux</h2>
+				<h2>Hour Two</h2>
 				<h3>The Problem</h3>	
 				</section>
 
@@ -230,7 +233,7 @@ else:
 				</section>
 
 				<section>
-				<h2><a href="https://github.com/tommeagher/pythonIRE15/blob/master/scripts/scrape1.py">Let's go</a></h2>
+				<h2><a href="https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/scrape1.py">Let's go</a></h2>
 				<p>Open your text editor of choice and a terminal window.<br />
 				Write a line or two of code under each comment,<br /> save the text file and then try to run:
 				<pre><code>
@@ -240,10 +243,10 @@ python scrape1.py
 				</section>
 
 				<section>
-				<h2><a href="https://github.com/tommeagher/pythonIRE15/blob/master/scripts/scrape2.py">Now you try</a></h2>
-				<p>Now, expand your code to <a href="https://github.com/tommeagher/pythonIRE15/blob/master/scripts/scrape2.py">scrape a similar, but bigger page</a>.<br /> <br />
-				We probably won't have time to get to these.<br /> But if you want to keep working,<br /> try the extra, <a href="https://github.com/tommeagher/pythonIRE15/blob/master/scripts/extracredit.py">extra credit project here</a>.<br /><br />
-				And you can find the working scripts in the <a href="https://github.com/tommeagher/pythonIRE15/tree/master/scripts/completed">completed dir</a>.</p>
+				<h2><a href="https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/scrape2.py">Hour Three</a></h2>
+				<p>Now, expand your code to <a href="https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/scrape2.py">scrape a similar, but bigger page</a>.<br /> <br />
+				We probably won't have time to get to these.<br /> But if you want to keep working,<br /> try the extra, <a href="https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/extracredit.py">extra credit project here</a>.<br /><br />
+				And you can find the working scripts in the <a href="https://github.com/tommeagher/pythonGIJC15/tree/master/scripts/completed">completed dir</a>.</p>
 				</section>
 
 				<section>
@@ -261,7 +264,7 @@ python scrape1.py
 				<section style="text-align: left;">
 					<h1>--30--</h1>
 					<p>
-						Clone the <a href="https://github.com/tommeagher/pythonIRE15">source code</a>
+						Clone the <a href="https://github.com/tommeagher/pythonGIJC15">source code</a>
 					</p>
 					<br />
 					<p>
