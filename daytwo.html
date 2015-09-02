@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Intro to Python in the Newsroom - GIJC in Lillehammer</title>
+
+		<meta name="description" content="Learning to code to improve our reporting">
+		<meta name="author" content="Tom Meagher">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Intro to Python<br /> in the Newsroom</h1>
+					<h3>Day Two - GIJC 2015, Lillehammer</h3>
+					<h3></h3>
+					<p>
+						<small>By <a href="http://www.tommeagher.com/">Tom Meagher</a> / <a href="http://twitter.com/ultracasual">@ultracasual</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Recap of Day One</h2>
+					<p class="fragment">Cover more ground, faster</p>
+					<p class="fragment">Helps document reporting</p>
+					<p class="fragment">Makes analysis replicable</p>
+					<p class="fragment">Automation!</p>
+				</section>
+
+					<section>
+						<h2>The goal</h2> 
+						<p>To start thinking about<br /> how to break problems down<br />into the smallest tasks<br /> that can be programmed.<br />
+						</p>
+					</section>
+				</section>
+
+			    <section>
+					<h2>Yesterday, we went from this...</h2>
+					<img src="imgs/unscraped.png">
+
+				</section>
+				
+				<section>
+					<h2>...to this.</h2>
+					<img src="imgs/spreadsheet.png">
+				</section>
+
+				<section>
+				<h2><a href="https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/scrape2.py">Hour Three</a></h2>
+				<p>Now, we want to expand our code to <a href="https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/scrape2.py">scrape a similar, but bigger page</a>.<br /> <br />
+				</section>
+
+				<section>
+				We probably won't have time to get to these.<br /> But if you want to keep working,<br /> try the extra, <a href="https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/extracredit.py">extra credit project here</a>.<br /><br />
+				And you can find the working scripts in the <a href="https://github.com/tommeagher/pythonGIJC15/tree/master/scripts/completed">completed dir</a>.</p>
+				</section>
+
+				<section>
+				<h2>Keep learning</h2>
+				<p><a href="http://robertorocha.info/on-the-ethics-of-web-scraping/">Excellent post on ethics of scraping</a></p>
+				<p><a href="https://groups.google.com/forum/#!forum/pythonjournos">Python Journos</a></p>
+				<p><a href="https://github.com/ireapps/pycar/tree/master/takehome">More resources for learning Python</a>
+				<p><a href="https://www.ire.org/resource-center/listservs/subscribe-nicar-l/">NICAR-L</a></p>
+				<p><a href="https://source.opennews.org/en-US/code/">Source</a></p>
+				<p>Github</p>
+				<p>StackOverflow</p>
+				<p>Google</p>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>--30--</h1>
+					<p>
+						Clone the <a href="https://github.com/tommeagher/pythonGIJC15">source code</a>
+					</p>
+					<br />
+					<p>
+						<a href="http://www.tommeagher.com/about.html">Email me</a> or ping me on <a href="http://www.twitter.com/ultracasual/">Twitter</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
