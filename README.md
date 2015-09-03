@@ -13,7 +13,7 @@ Then we'll reuse the code to scrape the list of all death row inmates, adding a 
 
 A rough outline of the five, 1-hour sessions:
 
-##[Day One](http://www.tommeagher.com/pythonGIJC15)
+##[Day One](http://www.tommeagher.com/pythonGIJC15) with Tommy Kaas
 ###Hour One:
 * Why code at all and why Python?
 * Strings, ints, variables, and lists. [Everything](https://github.com/tommeagher/pythonIRE15/blob/master/scripts/day_one/the_basics.py) you need to know about programming you probably learned in Excel
@@ -22,7 +22,7 @@ A rough outline of the five, 1-hour sessions:
 ###Hour Two:
 * Let's code [this](https://github.com/tommeagher/pythonIRE15/blob/master/scripts/day_one/scrape1.py) together
 
-##[Day Two](http://www.tommeagher.com/pythonGIJC15/daytwo.html)
+##[Day Two](http://www.tommeagher.com/pythonGIJC15/daytwo.html) with Adriana Homolova
 ###Hour Three:
 * We'll recap what we covered the first day and pick up where we left off.
 * We already scraped one page, now we'll use the same script to try it on the list of [other death row inmates](https://github.com/tommeagher/pythonIRE15/blob/master/scripts/day_two/scrape2.py) (add one column and a loop)!
