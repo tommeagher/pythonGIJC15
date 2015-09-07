@@ -5,4 +5,4 @@ If you're using a Windows PC, [Anthony DeBarros](https://github.com/anthonydb) h
 
 Here's [a similar tutorial](http://hackercodex.com/guide/python-development-environment-on-mac-osx/) if you're on a Mac. And [another for Linux users](http://www.linuxfromscratch.org/blfs/view/svn/general/python2.html).
 
-You'll also need to install setup tools, pip, virtualenv, virtualenvwrapper and, finally, our [requirements.txt](requirements.txt).
+You'll also need to install [setuptools](https://pypi.python.org/pypi/setuptools), [pip](https://pip.pypa.io/en/latest/installing.html), [virtualenv](https://virtualenv.pypa.io/en/latest/installation.html), [virtualenvwrapper](https://virtualenvwrapper.readthedocs.org/en/latest/install.html) and, finally, our [requirements.txt](requirements.txt).
