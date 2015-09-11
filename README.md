@@ -7,8 +7,7 @@ Follow along [with the slides](http://www.tommeagher.com/pythonGIJC15/#/).
 
 We'll learn the basics of coding in the newsroom by scraping the Texas Department of Criminal Justice's website for its [list of death row inmates](http://tdcj.state.tx.us/death_row/dr_offenders_on_dr.html) and [its list of scheduled executions](http://tdcj.state.tx.us/death_row/dr_scheduled_executions.html).
 
-Because we don't want to hammer the TDCJ website, I've mirrored the pages on s3, so first we'll be scraping the scheduled executions: https://s3.amazonaws.com/python-at-ire15/death_row/dr_scheduled_executions.html
-Then we'll reuse the code to scrape the list of all death row inmates, adding a column to our scraper: https://s3.amazonaws.com/python-at-ire15/death_row/dr_offenders_on_dr.html
+Because we don't want to hammer the TDCJ website, I've mirrored the pages on s3, so first we'll be scraping [the scheduled executions](https://s3.amazonaws.com/python-at-ire15/death_row/dr_scheduled_executions.html). Then we'll reuse the code to scrape [the list of all death row inmates](https://s3.amazonaws.com/python-at-ire15/death_row/dr_offenders_on_dr.html), adding a column to our scraper.
 
 A rough outline of the five, 1-hour sessions:
 
