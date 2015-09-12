@@ -17,7 +17,7 @@ A rough outline of the five, 1-hour sessions. Follow along [with the slides](htt
 ##[Day Two](http://www.tommeagher.com/pythonGIJC15/daytwo.html) with [Adriana Homolova](http://ada.homolova.sk/)
 ###Hour Three:
 * We'll recap what we covered the first day and pick up where we left off.
-* We already scraped one page, now we'll use the same script to try it on [the list of all death row inmates](https://s3.amazonaws.com/python-at-ire15/death_row/dr_offenders_on_dr.html) by adding of [one column and a loop](https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/day_two/scrape2.py) to our script.
+* We already scraped one page, now we'll use the same script to try it on [the list of all death row inmates](https://s3.amazonaws.com/python-at-ire15/death_row/dr_offenders_on_dr.html) by adding [one column and a loop](https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/day_two/scrape2.py) to our script.
 
 ###Hour Four:
 * Let's tackle the Texas extra credit, making additional requests for each profile page. Or should this be part one of a new scraper? Probably.
