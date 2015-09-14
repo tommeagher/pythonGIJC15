@@ -3,12 +3,12 @@
 
 Before class, be sure [you've installed Python 2.7](PRE-CLASS.md) and all the necessary tools. 
 
-A rough outline of the five, 1-hour sessions. Follow along [with the slides](http://www.tommeagher.com/pythonGIJC15/#/).
+Here's a rough outline of the five, 1-hour sessions. Follow along [with the slides](http://www.tommeagher.com/pythonGIJC15/#/).
 
 ##[Day One](http://www.tommeagher.com/pythonGIJC15) with [Tommy Kaas](http://www.kaasogmulvad.dk/)
 ###Hour One:
-* Why code at all and why Python?
-* Strings, ints, variables, and lists. [Everything](https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/day_one/the_basics.py) you need to know about programming you probably learned in Excel
+* Why code at all, and why Python?
+* Strings, ints, variables, and lists. [Everything](https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/day_one/the_basics.py) you need to know about programming you probably already learned in Excel
 * How the hell do you scrape a website? A quick exercise in breaking down a problem into its components and writing functions. http://www.tommeagher.com/pythonGIJC15/#/15
 
 ###Hour Two:
