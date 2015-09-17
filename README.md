@@ -12,7 +12,7 @@ Here's a rough outline of the five, 1-hour sessions. Follow along [with the slid
 * How the hell do you scrape a website? A quick exercise in breaking down a problem into its components and writing functions. http://www.tommeagher.com/pythonGIJC15/#/15
 
 ###Hour Two:
-* We'll be scraping the Texas Department of Criminal Justice's website for its [list of death row inmates](http://tdcj.state.tx.us/death_row/dr_offenders_on_dr.html) and [its list of scheduled executions](http://tdcj.state.tx.us/death_row/dr_scheduled_executions.html). Because we don't want to hammer the TDCJ website, I've mirrored the pages on s3, so first we'll be scraping [the scheduled executions](https://s3.amazonaws.com/python-at-ire15/death_row/dr_scheduled_executions.html). Let's code [this](https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/day_one/scrape1.py) together
+* We'll be scraping the Texas Department of Criminal Justice's website for its [list of death row inmates](http://tdcj.state.tx.us/death_row/dr_offenders_on_dr.html) and [its list of scheduled executions](http://tdcj.state.tx.us/death_row/dr_scheduled_executions.html). Because we don't want to hammer the TDCJ website, I've mirrored the pages on s3. We'll be scraping [the scheduled executions](https://s3.amazonaws.com/python-at-ire15/death_row/dr_scheduled_executions.html). Let's code [this](https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/day_one/scrape1.py) together
 
 ##[Day Two](http://www.tommeagher.com/pythonGIJC15/daytwo.html) with [Adriana Homolova](http://ada.homolova.sk/)
 ###Hour Three:
