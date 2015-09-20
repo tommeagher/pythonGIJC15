@@ -1,4 +1,4 @@
-d# Scraping in the Newsroom with Python
+# Scraping in the Newsroom with Python
 ##At [GIJC 2015](http://gijc2015.org/) in Lillehammer, Norway.
 
 Before class, be sure [you've installed Python 2.7](PRE-CLASS.md) and all the necessary tools. 
