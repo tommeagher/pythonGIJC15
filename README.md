@@ -1,9 +1,9 @@
-# Scraping in the Newsroom with Python
+#Scraping in the Newsroom with Python
 ##At [GIJC 2015](http://gijc2015.org/) in Lillehammer, Norway.
 
 Before class, be sure [you've installed Python 2.7](PRE-CLASS.md) and all the necessary tools. 
 
-Here's a rough outline of the five, 1-hour sessions. Follow along [with the slides](http://www.tommeagher.com/pythonGIJC15/#/).
+Here's a rough outline of the five, one-hour sessions. Follow along [with the slides](http://www.tommeagher.com/pythonGIJC15/#/).
 
 ##[Day One](http://www.tommeagher.com/pythonGIJC15) with [Tommy Kaas](http://www.kaasogmulvad.dk/)
 ###Hour One:
