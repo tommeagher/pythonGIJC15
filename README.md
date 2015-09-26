@@ -8,7 +8,7 @@ Here's a rough outline of the five, one-hour sessions. Follow along [with the sl
 ##[Day One](http://www.tommeagher.com/pythonGIJC15) with [Tommy Kaas](http://www.kaasogmulvad.dk/)
 ###Hour One:
 * Why code at all, and why Python?
-* Strings, ints, variables, and lists. [Everything](https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/day_one/the_basics.py) you need to know about programming you probably already learned in Excel
+* Everything](https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/day_one/the_basics.py) you need to know about programming you probably already learned in Excel: Strings, ints, floats, variables, and lists.
 * How the hell do you scrape a website? A quick exercise in breaking down a problem into its components and writing functions. http://www.tommeagher.com/pythonGIJC15/#/15
 
 ###Hour Two:
@@ -17,7 +17,7 @@ Here's a rough outline of the five, one-hour sessions. Follow along [with the sl
 ##[Day Two](http://www.tommeagher.com/pythonGIJC15/daytwo.html) with [Adriana Homolova](http://ada.homolova.sk/)
 ###Hour Three:
 * We'll recap what we covered the first day and pick up where we left off.
-* We already scraped one page, now we'll use the same script to try it on [the list of all death row inmates](https://s3.amazonaws.com/python-at-ire15/death_row/dr_offenders_on_dr.html) by adding [one column and a loop](https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/day_two/scrape2.py) to our script. There's extra credit for you to work on at home. With this scraper, make an additional request for each prisoner's profile page. 
+* We already scraped one page, now we'll use the same script to grab [the list of all death row inmates](https://s3.amazonaws.com/python-at-ire15/death_row/dr_offenders_on_dr.html) by adding [one column and a loop](https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/day_two/scrape2.py) to our script. There's extra credit for you to work on at home. With this scraper, make an additional request for each prisoner's profile page. 
 
 ###Hour Four:
 * Next, we'll tackle another scraper. This time, we want to gather information about the size and capacity of the United Kingdom's prison systems. We also want to see how many prisons have made adjustments over time to allow them to hold more prisoners than they were originally designed for. We'll be scraping a clone of the UK's Justice ministry's [Prison Finder website](https://www.justice.gov.uk/contacts/prison-finder/). We'll want to compare each facility's [certified normal accomodation to its operational capacity](http://www.bbc.com/news/uk-19395427).
