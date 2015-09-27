@@ -3,7 +3,7 @@
 
 Before class, be sure [you've installed Python 2.7](PRE-CLASS.md) and all the necessary tools. 
 
-Here's a rough outline of the five, one-hour sessions. Follow along [with the slides](http://www.tommeagher.com/pythonGIJC15/#/).
+Here's a rough outline of the five, one-hour sessions. Follow along along with the slides: [Day One](http://www.tommeagher.com/pythonGIJC15) and [Day Two](http://www.tommeagher.com/pythonGIJC15/daytwo.html).
 
 ##[Day One](http://www.tommeagher.com/pythonGIJC15) with [Tommy Kaas](http://www.kaasogmulvad.dk/)
 ###Hour One:
