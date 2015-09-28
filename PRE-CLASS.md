@@ -2,7 +2,7 @@
 Before we meet, you'll need to prepare your personal computer for the class.
 
 ##Install Python 2.7
-If you're using a Windows PC, [Anthony DeBarros](https://github.com/anthonydb) has written [a fantastic tutorial](http://www.anthonydebarros.com/2014/02/16/setting-up-python-in-windows-8-1/) for getting Python 2.7 installed on your machine.
+If you're using a Windows PC, [Anthony DeBarros](https://github.com/anthonydb) has written [a fantastic walkthrough](http://www.anthonydebarros.com/2014/02/16/setting-up-python-in-windows-8-1/) for getting Python 2.7 installed on your machine.
 
 Here's [a similar tutorial](http://hackercodex.com/guide/python-development-environment-on-mac-osx/) if you're on a Mac. And [another for Linux users](http://www.linuxfromscratch.org/blfs/view/svn/general/python2.html).
 
