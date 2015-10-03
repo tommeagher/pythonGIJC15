@@ -1,0 +1,20 @@
+/*
+  Running Squiz Matrix
+  Developed by Squiz - http://www.squiz.net
+  MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
+  Page generated: 03 October 2015 20:10:54
+*/
+
+
+#header-wrapper,#section-sub-wrapper,.h-line,#footer-bar,#footer-wrapper,#content-left,#content-right,.share-this,#breadcrumb
+{display:none!important;}
+input.go-btn{display:none;}
+#content{width:100%!important;}
+
+.print-only{display:block!important;}
+
+
+body
+{
+    font-size:18px;
+}
