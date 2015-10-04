@@ -7,6 +7,15 @@ from lxml import html
 
 #terrible, untested scraper to mirror the UK prison finder. Probably doesn't work
 
+def relocate_href(link):
+    if link.startswith('https://www.justice.gov.uk'):
+        url = link[len('https://www.justice.gov.uk'):]
+        url = ''+ url
+        return url
+    else:
+        return link
+
+
 base_url = "https://www.justice.gov.uk/contacts/prison-finder/"
 
 index_base = "prisonfinder-a-z"
@@ -15,6 +24,10 @@ home_request = requests.get(base_url)
 soup = BeautifulSoup(home_request.text)
 for a in soup.findAll(href=True):
     a['href'] = relocate_href(a['href']).replace('?', '__').replace('#', '__')
+    if a['href'].endswith('.css'):
+        a['href']=a['href']
+    else:
+        a['href'] = a['href']+"/index.html"
 for a in soup.findAll(src=True):
     a['src'] = relocate_href(a['src'])
 
@@ -28,6 +41,10 @@ first_request = requests.get(index_request)
 soup = BeautifulSoup(first_request.text)
 for a in soup.findAll(href=True):
     a['href'] = relocate_href(a['href']).replace('?', '__').replace('#', '__')
+    if a['href'].endswith('.css'):
+        a['href']=a['href']
+    else:
+        a['href'] = a['href']+"/index.html"
 for a in soup.findAll(src=True):
     a['src'] = relocate_href(a['src'])
 
@@ -60,6 +77,10 @@ for url in alpha_urls:
     soup = BeautifulSoup(page_html)
     for a in soup.findAll(href=True):
         a['href'] = relocate_href(a['href']).replace('?', '__').replace('#', '__')
+        if a['href'].endswith('.css'):
+            a['href']=a['href']
+        else:
+            a['href'] = a['href']+"/index.html"
     for a in soup.findAll(src=True):
         a['src'] = relocate_href(a['src'])
     filename = url.split('https://www.justice.gov.uk/')[1].replace('?', '__').replace('#', '__')
@@ -79,13 +100,8 @@ for url in alpha_urls:
         detail_urls.append(added_url)
         next_ul = next_ul.getnext()
 
-    sleep(3)
+    sleep(2)
 
-def relocate_href(link):
-    if link.startswith('https://www.justice.gov.uk'):
-        return '' + link[len('https://www.justice.gov.uk'):]
-    else:
-        return link
 
 for detail in detail_urls:
     print detail
@@ -99,7 +115,7 @@ for detail in detail_urls:
         if q.status_code==200:
             next_url = q.url
             z = requests.get(next_url)
-        new_text = '<head><meta http-equiv="refresh" content="0;url={0}" /></head><body></body>'.format(q.url.split('https://www.justice.gov.uk')[1])
+        new_text = '<head><meta http-equiv="refresh" content="0;url={0}" /></head><body></body>'.format(q.url.split('https://www.justice.gov.uk')[1]+"/index.html")
         dir = filename
         if not os.path.exists(dir):
             os.makedirs(dir)
@@ -111,6 +127,10 @@ for detail in detail_urls:
         soup = BeautifulSoup(new_html)
         for a in soup.findAll(href=True):
             a['href'] = relocate_href(a['href'])
+            if a['href'].endswith('.css'):
+                a['href']=a['href']
+            else:
+                a['href'] = a['href']+"/index.html"
         for a in soup.findAll(src=True):
             a['src'] = relocate_href(a['src'])
 
@@ -130,6 +150,10 @@ for detail in detail_urls:
         for a in soup.findAll(href=True):
             if a:
                 a['href'] = relocate_href(a['href'])
+                if a['href'].endswith('.css'):
+                    a['href']=a['href']
+                else:
+                    a['href'] = a['href']+"/index.html"
         for a in soup.findAll(src=True):
             a['src'] = relocate_href(a['src'])
         dir = q_filename
@@ -140,6 +164,6 @@ for detail in detail_urls:
             f.write(html_string)
             print q_filename+"/index.html"
 
-    sleep(3)
+    sleep(2)
 
 
