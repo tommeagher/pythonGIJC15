@@ -6,8 +6,13 @@ If you're using a Windows PC, [Anthony DeBarros](https://github.com/anthonydb) h
 
 Here's [a similar tutorial](http://hackercodex.com/guide/python-development-environment-on-mac-osx/) if you're on a Mac. And [another for Linux users](http://www.linuxfromscratch.org/blfs/view/svn/general/python2.html).
 
+##A place to write your code
+You'll want to have a text editor installed on your machine. I like [Sublime Text](https://www.sublimetext.com/). I've also used [Text Wrangler](http://www.barebones.com/products/textwrangler/), which is free. Anything where you can write code and save it as plain text files will work.
+
 ##Manage your Python project environment
 After you have Python up and running, you'll also need to install [setuptools](https://pypi.python.org/pypi/setuptools), [pip](https://pip.pypa.io/en/latest/installing.html), [virtualenv](https://virtualenv.pypa.io/en/latest/installation.html), [virtualenvwrapper](https://virtualenvwrapper.readthedocs.org/en/latest/install.html).
+
+You also want to install the iPython interactive interpreter. Try it out by running ```pip install ipython```.
 
 ##Grab the scripts for the class
 It would help if you have [git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), so you can easily clone the repository of code for the class from Github to your local machine and keep track of the changes you make to it over time.
