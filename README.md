@@ -17,11 +17,17 @@ Here's a rough outline of the five, one-hour sessions. Follow along along with t
 ##[Day Two](http://www.tommeagher.com/pythonGIJC15/daytwo.html) with [Adriana Homolova](http://ada.homolova.sk/)
 ###Hour Three:
 * We'll recap what we covered the first day and pick up where we left off.
-* We already scraped one page. Now we'll use the same script to grab [the list of all death row inmates](https://s3.amazonaws.com/python-at-ire15/death_row/dr_offenders_on_dr.html) by adding [one column and a loop](https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/day_two/scrape2.py) to our script. There's extra credit for you to work on at home. With this scraper, make an additional request for each prisoner's profile page to collect other data. 
+* We already scraped one page. Now we'll use the same script to grab [the list of all death row inmates](https://s3.amazonaws.com/python-at-ire15/death_row/dr_offenders_on_dr.html) by adding [one column and a loop](https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/day_two/scrape2.py) to our script. There's [extra credit](https://github.com/tommeagher/pythonGIJC15/blob/master/scripts/day_two/extracredit.py) for you to work on at home. With this scraper, make an additional request for each prisoner's profile page to collect other data. 
 
 ###Hour Four:
-* Next, we'll tackle another scraper. This time, we want to gather information about the size and capacity of the United Kingdom's prison systems. We also want to see how many prisons have made adjustments over time to allow them to hold more prisoners than they were originally designed for. We'll be scraping a clone of the UK's Justice ministry's [Prison Finder website](https://www.justice.gov.uk/contacts/prison-finder/). We'll want to compare each facility's [certified normal accomodation to its operational capacity](http://www.bbc.com/news/uk-19395427). I've mirrored the Justice ministry's Prison Finder on s3 for our exercises. You can find it [here](http://python-gijc15.s3.eu-central-1.amazonaws.com/contacts/prison-finder/index.html).
+* Next, we'll tackle another scraper. 
+USGS [Earthquakes data](http://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php) you can grab the csv here: http://python-gijc15.s3.eu-central-1.amazonaws.com/all_month.csv
+
+We'll want to download the CSV, turn it into a dictionary, clean up the date, filter out only the earthquakes above a 6.0. Keep lat/lon and ID.
+
 
 ###Hour Five: 
-* We'll wrap up our UK prison scraper.
+* We'll wrap up our UK prison scraper. This time, we want to gather information about the size and capacity of the United Kingdom's prison systems. We also want to see how many prisons have made adjustments over time to allow them to hold more prisoners than they were originally designed for. We'll be scraping a clone of the UK's Justice ministry's [Prison Finder website](https://www.justice.gov.uk/contacts/prison-finder/). We'll want to compare each facility's [certified normal accomodation to its operational capacity](http://www.bbc.com/news/uk-19395427). I've mirrored the Justice ministry's Prison Finder on s3 for our exercises. You can find it [here](http://python-gijc15.s3.eu-central-1.amazonaws.com/contacts/prison-finder/index.html).
+
+
 * There's so much weirdness in coding and quirks to any programming language, we can't possibly do it all in two days. So here are [some resources](https://github.com/ireapps/pycar/tree/master/takehome).
