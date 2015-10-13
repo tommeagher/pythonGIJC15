@@ -1,7 +1,7 @@
 #Scraping in the Newsroom with Python
 ##At [GIJC 2015](http://gijc2015.org/) in Lillehammer, Norway.
 
-Before class, be sure [you've installed Python 2.7](PRE-CLASS.md) and all the necessary tools. 
+Before class, be sure you've at least [installed Python 2.7](PRE-CLASS.md) and pip, if not all of the recommended tools. 
 
 Here's a rough outline of the five, one-hour sessions. Follow along along with the slides: [Day One](http://www.tommeagher.com/pythonGIJC15) and [Day Two](http://www.tommeagher.com/pythonGIJC15/daytwo.html).
 
